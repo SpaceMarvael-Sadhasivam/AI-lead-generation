@@ -113,7 +113,7 @@ class CourseLeadAgent:
             "Perfect. Based on what you’ve shared, our AI Generalized Accelerator "
             "is designed exactly for this stage. Over three months plus year-long support, "
             "you’ll learn practical AI tools, build real projects like voice agents and automated workflows, "
-            "and gain strong hands-on experience that you can apply confidently."
+            "and gain strong hands-on experience that you can apply confidently. would you like to enroll upcomping GEN AI class?"
         )
 
     # --------------------------------------------------
@@ -148,8 +148,8 @@ class CourseLeadAgent:
         self.state = ConversationState.PRICE_OBJECTION
         return (
             "Just to give you clarity on the structure — the next batch onboarding is on 20 June, "
-            "and classes start on 23 June. The total investment is ₹14,999, "
-            "with a ₹4,999 booking amount and flexible EMI options. "
+            "and classes start on 23 June. The total investment is ₹15,000, "
+            "with a ₹5,000 booking amount and flexible EMI options. "
             "You also get immediate access to AI tools included with the program. "
             "Do these dates and the structure work for you?"
         )
@@ -169,8 +169,8 @@ class CourseLeadAgent:
         if self._is_yes(text):
             self.state = ConversationState.SOFT_COMMIT
             return (
-                "Great. Would you like me to hold a seat for 24 hours so you can review everything "
-                "and decide without any pressure?"
+                "Great. I will hold a seat for 24 hours so you can review everything "
+                
             )
 
         return (
